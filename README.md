@@ -4,4 +4,4 @@
 - Birden fazla sunucuda kullanma özelliği test edilmedi herhangi bir hata bulursanız bana ulaşabilirsiniz.
 - TDK sözlüğünden kelimenin doğru olup olmadığını kontrol eder.
 - 30dkda hazırlanmış bir koddur hata oluşabilir çözemezseniz bana ulaşabilirsiniz.
-- Discord hesabım: " lyertia#0067
+- Discord hesabım: " lyertia#9828
