@@ -1,10 +1,10 @@
-const mongoose = require("mongoose"),
-  Schema = mongoose.Schema;
+const mongoose = require("mongoose");
 
-const schema = new Schema({
+const schema = new mongoose.Schema({
   guildID: String,
-  gameChannel: String,
-  lastUser: String,
-  lastMessage: String,
+  channelID: String,
+  lastUserID: String,
+  lastChar: String,
+  lastWords: [String]
 });
 module.exports = mongoose.model("guildData", schema);

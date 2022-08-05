@@ -1,4 +1,21 @@
 {
+  "name": "discord-kelime-turetme",
+  "description": "Kelime türetme botu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyertia/discord-kelime-turetme"
+  },
+  "scripts": {
+    "test": "node ."
+  },
+  "version": "0.0.2",
+  "author": {
+    "name": "lyertia"
+  },
+  "license": "GPL-3.0",
+  "contributors": [
+    "Akif9748"
+  ],
   "dependencies": {
     "axios": "^0.27.2",
     "discord.js": "^13.8.1",
