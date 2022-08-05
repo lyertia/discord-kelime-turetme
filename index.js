@@ -23,7 +23,7 @@ function incorrectMessage(message, content) {
 }
 
 client.on("ready", () => {
-  console.log("By lyertia.");
+  console.log("Bot online.");
   client.user.setActivity({ name: "!kanal", type: "LISTENING" });
 });
 
