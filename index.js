@@ -73,7 +73,10 @@ client.on("messageCreate", async message => {
  
       if (response.data.error)
         return incorrectMessage(message, "Kelime TDK sözlüğünde bulunmuyor.");
-
+      
+      if (content.endsWith("ğ")) 
+        return await incorrectMessage(message, `**Ğ** ile biten kelime yazamazsın!`);
+      
       if (result.lastWords.length >= LIMITOR) result.lastWords.shift();
 
       result.lastWords.push(content);
